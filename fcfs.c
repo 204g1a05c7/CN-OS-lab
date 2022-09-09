@@ -15,7 +15,7 @@ void main(){
   }
   totwt=0;
   for(int i=0;i<n;i++){
-    totwt+=wt[i]l;
+    totwt+=wt[i];
     tot+=tat[i];
   }
   print("Total waiting time: %d",totwt);
