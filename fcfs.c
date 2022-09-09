@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-  int n,totwt,tot;
+  int n,totwt=0,tot;
   scanf("enter number of jobs %d",&n);
   int j[n],et[n],wt[n],tat[n];
   printf("enter the expected times for jobs");
