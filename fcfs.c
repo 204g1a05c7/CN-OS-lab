@@ -18,10 +18,10 @@ void main(){
     totwt+=wt[i];
     tot+=tat[i];
   }
-  print("Total waiting time: %d",totwt);
-  print("Total turn around time: %d",tot);
-  print("average waiting time: %d",totwt/n);
-  print("average turn around time: %d",tot/n);
+  printf("Total waiting time: %d",totwt);
+  printf("Total turn around time: %d",tot);
+  printf("average waiting time: %d",totwt/n);
+  printf("average turn around time: %d",tot/n);
 }
   
   
