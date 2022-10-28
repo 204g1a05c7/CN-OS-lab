@@ -1,8 +1,10 @@
+#include<stdio.h>
 void main(){
-int tape[]=[1,2,5,4,8,1,7,5,1,7,1,5];
-int queue[]=[-1,-1,-1,1,2,5,4,8,1,7,5,1,7,1,5];
+int tape[]={1,2,5,4,8,1,7,5,1,7,1,5};
+int queue[]={-1,-1,-1,1,2,5,4,8,1,7,5,1,7,1,5};
 int index,f=3;
-int frame=[-1,-1,-1];
+int frame[]={-1,-1,-1};
+int top=0;
 int check(int a)
 {
 for(int i=0;i<f;i++)
@@ -31,5 +33,10 @@ if (check(tape[i]))
 index=indexof(queue[top]);
 frame[index]=tape[i];
 top++;
+}
+}
+for(int t=0;t<3;t++)
+{
+printf(frame[t]);
 }
 }
